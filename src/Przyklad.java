@@ -86,6 +86,10 @@ public class Przyklad extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 valueA = Double.parseDouble(textField1.getText());
                 valueB = Double.parseDouble(textField2.getText());
+                if(valueB == 0){
+                    JOptionPane.showMessageDialog(null, "Error: Nie mozna dzielic przez zero.",
+                            "Error", JOptionPane.ERROR_MESSAGE);
+                }
                 score = valueA / valueB;
                 lableWynik.setText("Iloraz "+ String.valueOf(valueA)+" / "+
                         String.valueOf(valueB) + " = "+ String.valueOf(score));
