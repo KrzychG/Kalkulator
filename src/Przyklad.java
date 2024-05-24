@@ -13,6 +13,7 @@ public class Przyklad extends JFrame{
     private JButton wyczyscButton;
     private JButton wyjscieButton;
     private JLabel lableWynik;
+    private JLabel icon;
     private int width = 400, height = 400;
 
     private double valueA, valueB, score;
@@ -20,6 +21,7 @@ public class Przyklad extends JFrame{
     public static void main(String[] args) {
         Przyklad przyklad = new Przyklad();
         przyklad.setVisible(true);
+        przyklad.setLocation(500,300);
     }
 
     public Przyklad(){
@@ -54,7 +56,7 @@ public class Przyklad extends JFrame{
                 valueA = Double.parseDouble(textField1.getText());
                 valueB = Double.parseDouble(textField2.getText());
                 score = valueA + valueB;
-                lableWynik.setText("Suma "+ String.valueOf(valueA)+" + "+
+                lableWynik.setText("Suma: "+ String.valueOf(valueA)+" + "+
                         String.valueOf(valueB) + " = "+ String.valueOf(score));
             }
         });
@@ -64,7 +66,7 @@ public class Przyklad extends JFrame{
                 valueA = Double.parseDouble(textField1.getText());
                 valueB = Double.parseDouble(textField2.getText());
                 score = valueA - valueB;
-                lableWynik.setText("Różnica "+ String.valueOf(valueA)+" - "+
+                lableWynik.setText("Różnica: "+ String.valueOf(valueA)+" - "+
                         String.valueOf(valueB) + " = "+ String.valueOf(score));
             }
         });
@@ -75,7 +77,7 @@ public class Przyklad extends JFrame{
                 valueA = Double.parseDouble(textField1.getText());
                 valueB = Double.parseDouble(textField2.getText());
                 score = valueA * valueB;
-                lableWynik.setText("Iloczyn "+ String.valueOf(valueA)+" * "+
+                lableWynik.setText("Iloczyn: "+ String.valueOf(valueA)+" * "+
                         String.valueOf(valueB) + " = "+ String.valueOf(score));
 
 
@@ -90,9 +92,11 @@ public class Przyklad extends JFrame{
                     JOptionPane.showMessageDialog(null, "Error: Nie mozna dzielic przez zero.",
                             "Error", JOptionPane.ERROR_MESSAGE);
                 }
+                else{
                 score = valueA / valueB;
                 lableWynik.setText("Iloraz "+ String.valueOf(valueA)+" / "+
                         String.valueOf(valueB) + " = "+ String.valueOf(score));
+                }
 
             }
         });
