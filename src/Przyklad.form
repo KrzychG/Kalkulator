@@ -5,7 +5,10 @@
     <constraints>
       <xy x="20" y="27" width="395" height="393"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-13882580"/>
+      <foreground color="-16777216"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="eb672" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -13,7 +16,9 @@
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13882580"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="6c0f5" class="javax.swing.JLabel" binding="icon">
@@ -31,6 +36,7 @@
             </constraints>
             <properties>
               <font name="Eras Bold ITC" size="24"/>
+              <foreground color="-986896"/>
               <text value="Kalkulator"/>
             </properties>
           </component>
@@ -41,7 +47,9 @@
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13882580"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="8048a" class="javax.swing.JButton" binding="wyjscieButton">
@@ -67,7 +75,9 @@
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13882580"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="684af" class="javax.swing.JButton" binding="sumaButton">
@@ -109,7 +119,9 @@
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13882580"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="773ac" class="javax.swing.JTextField" binding="textField2" default-binding="true">
@@ -125,6 +137,8 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="5" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-986896"/>
+              <enabled value="false"/>
               <text value="Podaj B"/>
             </properties>
           </component>
@@ -135,7 +149,9 @@
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13882580"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="c6201" class="javax.swing.JTextField" binding="textField1" default-binding="true">
@@ -151,6 +167,8 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="5" use-parent-layout="false"/>
             </constraints>
             <properties>
+              <background color="-986896"/>
+              <enabled value="false"/>
               <text value="Podaj A"/>
             </properties>
           </component>
@@ -161,7 +179,9 @@
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-13882580"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="40520" class="javax.swing.JLabel" binding="lableWynik">
